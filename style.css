@@ -1,0 +1,353 @@
+/* =========================
+   GLOBAL APP
+========================= */
+
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #120f2e 0%,
+        #1a1242 50%,
+        #0b1023 100%
+    );
+}
+
+.main .block-container {
+    padding-top: 2rem;
+    max-width: 1200px;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(
+        180deg,
+        #2b1458,
+        #1a103d
+    );
+}
+
+[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* =========================
+   TITLE
+========================= */
+
+.main-title {
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+    text-shadow: 0px 0px 25px rgba(215,150,255,0.7);
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #f0c8ff;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+/* =========================
+   LABELS
+========================= */
+
+label {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600 !important;
+}
+
+/* =========================
+   TEXT INPUT
+========================= */
+
+.stTextInput > div > div > input {
+
+    background: #ececec !important;
+
+    color: #000000 !important;
+
+    border: 1px solid #cccccc !important;
+
+    border-radius: 14px !important;
+
+    padding: 14px !important;
+
+    font-size: 18px !important;
+
+    font-weight: 500 !important;
+}
+
+.stTextInput input::placeholder {
+    color: #666666 !important;
+}
+
+/* =========================
+   SELECTBOX - WORKING FIX
+========================= */
+
+div[data-baseweb="select"] {
+    background-color: #2b2457 !important;
+    border-radius: 12px !important;
+    border: 1px solid #5d4db8 !important;
+}
+
+div[data-baseweb="select"] > div {
+    color: white !important;
+}
+
+div[data-baseweb="select"] span {
+    color: white !important;
+}
+
+div[data-baseweb="select"] input {
+    color: white !important;
+}
+
+div[data-baseweb="popover"] {
+    color: white !important;
+}
+
+/* Dropdown menu */
+
+ul {
+    background-color: #2b2457 !important;
+}
+
+li {
+    color: white !important;
+}
+/* Force dropdown text black */
+
+.stSelectbox div,
+.stSelectbox span,
+.stSelectbox input {
+    color: black !important;
+}
+
+/* Dropdown menu */
+
+div[role="listbox"] {
+    background: white !important;
+}
+
+div[role="option"] {
+    color: black !important;
+}
+
+/* =========================
+   FORCE INPUT TEXT BLACK
+========================= */
+
+input {
+    color: black !important;
+}
+
+textarea {
+    color: black !important;
+}
+
+/* =========================
+   SLIDER
+========================= */
+
+.stSlider {
+    color: white !important;
+}
+
+/* =========================
+   GENERATE BUTTON
+========================= */
+
+.stButton button {
+
+    background: linear-gradient(
+        90deg,
+        #d66efd,
+        #9f63ff
+    ) !important;
+
+    color: white !important;
+
+    border: none !important;
+
+    border-radius: 16px !important;
+
+    padding: 14px 28px !important;
+
+    font-size: 18px !important;
+
+    font-weight: bold !important;
+
+    box-shadow:
+        0px 0px 20px rgba(180,100,255,0.5);
+
+    transition: all 0.3s ease;
+}
+
+.stButton button:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0px 0px 25px rgba(180,100,255,0.8);
+}
+
+/* =========================
+   DOWNLOAD BUTTON
+========================= */
+
+.stDownloadButton button {
+
+    background: linear-gradient(
+        90deg,
+        #7b49ff,
+        #b56dff
+    ) !important;
+
+    color: white !important;
+
+    border: none !important;
+
+    border-radius: 14px !important;
+
+    padding: 12px 24px !important;
+}
+
+/* =========================
+   POEM TITLE
+========================= */
+
+.poem-title {
+
+    text-align: center;
+
+    color: #f0b4ff;
+
+    font-size: 34px;
+
+    font-weight: bold;
+
+    margin-top: 30px;
+
+    margin-bottom: 20px;
+}
+
+/* =========================
+   POEM CARD
+========================= */
+
+.poem-card {
+
+    background: #f7ead7;
+
+    border-radius: 25px;
+
+    padding: 50px;
+
+    color: #3d2a1f;
+
+    font-size: 24px;
+
+    line-height: 2;
+
+    text-align: center;
+
+    box-shadow:
+        0px 0px 30px rgba(0,0,0,0.35);
+
+    margin-top: 20px;
+
+    margin-bottom: 30px;
+}
+
+/* =========================
+   SCROLLBAR
+========================= */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #9f63ff;
+
+    border-radius: 10px;
+}
+/* FORCE BLACK TEXT IN SELECTBOX */
+
+.stSelectbox * {
+    color: black !important;
+}
+
+.stSelectbox span {
+    color: black !important;
+}
+
+.stSelectbox div {
+    color: black !important;
+}
+
+.stSelectbox input {
+    color: black !important;
+}
+
+.stSelectbox svg {
+    fill: black !important;
+}
+/* Labels above fields */
+
+[data-testid="stWidgetLabel"] p {
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+/* Text inside dropdown */
+
+div[data-baseweb="select"] span {
+    color: black !important;
+}
+
+/* Text inside text input */
+
+.stTextInput input {
+    color: black !important;
+}
+/* =========================
+   FIX ABOUT & INSPIRATION TEXT
+========================= */
+
+h1, h2, h3, h4, h5, h6 {
+    color: white !important;
+}
+
+p {
+    color: #f5f5f5 !important;
+}
+
+li {
+    color: #f5f5f5 !important;
+}
+
+ul {
+    color: #f5f5f5 !important;
+}
+
+.stMarkdown {
+    color: #f5f5f5 !important;
+}
+
+[data-testid="stMarkdownContainer"] {
+    color: #f5f5f5 !important;
+}
+
+.stAlert {
+    color: white !important;
+    background: rgba(255,255,255,0.08) !important;
+    border-radius: 15px !important;
+}
